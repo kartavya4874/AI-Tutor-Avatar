@@ -37,4 +37,5 @@ Thumbs.db
 
 # Logs and debug
 *.log
+*.env
 
