@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+
+# Virtual environments
+venv/
+env/
+*.venv/
+
+# Data / outputs
+data/voice_samples/*
+data/avatar_models/*
+data/knowledge_base/*
+out.wav
+*.mp3
+*.ogg
+
+# Streamlit / cache
+.streamlit/
+.cache/
+*.tmp
+
+# IDE / editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Logs and debug
+*.log
+

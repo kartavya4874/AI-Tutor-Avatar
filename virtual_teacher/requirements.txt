@@ -1,0 +1,58 @@
+# Core ML/AI Libraries
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Audio Processing
+librosa>=0.10.0
+soundfile>=0.12.0
+sounddevice>=0.4.6
+pyaudio>=0.2.11
+
+# Computer Vision & Avatar
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+Pillow>=9.5.0
+
+# Voice Cloning (Coqui TTS)
+coqui-tts>=0.13.0
+# Alternative: TTS>=0.13.0
+
+# LLM and NLP
+openai>=0.27.0
+requests>=2.31.0
+aiohttp>=3.8.0
+langchain>=0.0.200
+
+# Vector Database (choose one)
+faiss-cpu>=1.7.4
+# OR chromadb>=0.4.0
+
+# Speech Recognition
+openai-whisper>=20230314
+
+# Web Framework Options
+streamlit>=1.25.0
+# OR flask>=2.3.0
+
+# Backend API
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+
+# Database
+sqlalchemy>=2.0.0
+sqlite3  # Built-in with Python
+
+# Utilities
+python-dotenv>=1.0.0
+asyncio  # Built-in with Python 3.7+
+threading  # Built-in
+logging  # Built-in
+pathlib  # Built-in
+dataclasses  # Built-in with Python 3.7+
+enum  # Built-in
+time  # Built-in
+json  # Built-in
+re  # Built-in
